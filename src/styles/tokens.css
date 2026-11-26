@@ -1,0 +1,42 @@
+/*
+  UniClin — tokens.
+  Conceito: ateliê de cuidado. Luxo orgânico editorial: porcelana e marfim como chão, floresta como tinta,
+  oliva da marca em superfícies e títulos grandes, champagne só como linha e detalhe sobre o escuro.
+  Contraste (WCAG): floresta/porcelana 11.1 · oliva-texto/porcelana 5.8 · champagne/floresta 4.8 · névoa/floresta 7.3.
+  O oliva puro (#707E60) tem 4.2 sobre porcelana: só em texto ≥ 24px ou decorativo.
+*/
+:root {
+  --porcelana: #fcfbf8;
+  --marfim: #f7f4ed;
+  --linho: #ede7da;
+  --floresta: #303d2d;
+  --floresta-2: #3b4a37;
+  --oliva: #707e60;
+  --oliva-texto: #5a684c;
+  --champagne: #bda479;
+  --champagne-claro: #d3c19a; /* texto pequeno sobre floresta: 6.4:1 */
+  --nevoa: #c9d1bc;
+  --tinta: #303d2d;
+  --tinta-suave: #4b5747;
+
+  --serif: 'Newsreader Variable', Newsreader, Georgia, 'Times New Roman', serif;
+  --sans: 'Manrope Variable', Manrope, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* escala tipográfica (razão ~1.25, display em serifa) */
+  --t-xs: 0.8125rem;
+  --t-s: 0.9375rem;
+  --t-m: 1.0625rem;
+  --t-l: clamp(1.35rem, 1.1rem + 0.9vw, 1.75rem);
+  --t-xl: clamp(2rem, 1.4rem + 2.2vw, 3.25rem);
+  --t-xxl: clamp(2.5rem, 1.5rem + 4.2vw, 5.1rem);
+
+  --wrap: 1320px;
+  --gutter: max(20px, env(safe-area-inset-left, 0px), 4vw);
+  --sec: clamp(88px, 11vw, 160px);
+  --r-s: 3px;
+  --r-m: 10px;
+  --r-arco: 999px 999px 0 0;
+  --linha: 1px solid color-mix(in srgb, var(--floresta) 16%, transparent);
+  --ease: cubic-bezier(0.22, 0.7, 0.2, 1);
+  --header: 76px;
+}

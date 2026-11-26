@@ -1,0 +1,8 @@
+node_modules
+dist
+.taste-skill
+tools/render/out
+shots/.tmp
+*.log
+dist-ssr
+*.tsbuildinfo

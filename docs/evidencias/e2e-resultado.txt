@@ -1,0 +1,25 @@
+PASSOU  largura 360px: sem scroll horizontal e sem elementos fora da tela
+PASSOU  largura 390px: sem scroll horizontal e sem elementos fora da tela
+PASSOU  largura 768px: sem scroll horizontal e sem elementos fora da tela
+PASSOU  largura 1440px: sem scroll horizontal e sem elementos fora da tela
+PASSOU  menu móvel: abrir, Esc, foco devolvido, navegação
+PASSOU  especialidades: busca, filtro, vazio, acordeão
+PASSOU  equipe: perfis em modal com foco gerenciado; elenco correto
+PASSOU  agendamento 1440px: área → profissional → prévia → copiar; WhatsApp desativado
+PASSOU  agendamento 390px: área → profissional → prévia → copiar; WhatsApp desativado
+PASSOU  agendamento: área sem profissional informado
+PASSOU  horário 2026-11-23T11:59:00-03:00: "até 12h"
+PASSOU  horário 2026-11-23T12:00:00-03:00: "hoje, às 14h"
+PASSOU  horário 2026-11-23T14:00:00-03:00: "até 18h"
+PASSOU  horário 2026-11-27T18:00:00-03:00: "amanhã, às 08h"
+PASSOU  horário 2026-11-28T09:00:00-03:00: "até 12h"
+PASSOU  horário 2026-11-29T10:00:00-03:00: "Domingo sem horário informado"
+PASSOU  movimento reduzido: ambientes estáticos e conteúdo visível
+PASSOU  ambientes: capítulos com rolagem e selo de imagem ilustrativa
+PASSOU  visite: prévia da rota sem mapa; aviso e noindex presentes
+PASSOU  teclado: skip link é o primeiro Tab e tem foco visível
+PASSOU  axe-core WCAG A/AA 1440px sem violações
+PASSOU  axe-core WCAG A/AA 390px sem violações
+PASSOU  console sem erros em todas as execuções
+
+Resumo: 23 passaram, 0 falharam.

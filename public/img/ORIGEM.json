@@ -1,0 +1,127 @@
+{
+  "equipe-ana-theresa.webp": {
+    "tipo": "recorte de captura fornecida (referência privada)",
+    "fonte": "ana-theresa-story.jpeg",
+    "caixa": [
+      396,
+      262,
+      628,
+      552
+    ],
+    "tamanho": [
+      232,
+      290
+    ],
+    "uso": "apresentação privada; substituir por foto original autorizada"
+  },
+  "equipe-solario-neto.webp": {
+    "tipo": "recorte de captura fornecida (referência privada)",
+    "fonte": "solario-neto-story.jpeg",
+    "caixa": [
+      428,
+      330,
+      676,
+      640
+    ],
+    "tamanho": [
+      248,
+      310
+    ],
+    "uso": "apresentação privada; substituir por foto original autorizada"
+  },
+  "equipe-amanda-costa.webp": {
+    "tipo": "recorte de captura fornecida (referência privada)",
+    "fonte": "amanda-costa-story.jpeg",
+    "caixa": [
+      425,
+      295,
+      705,
+      645
+    ],
+    "tamanho": [
+      280,
+      350
+    ],
+    "uso": "apresentação privada; substituir por foto original autorizada"
+  },
+  "equipe-evele-araujo.webp": {
+    "tipo": "recorte de captura fornecida (referência privada)",
+    "fonte": "evele-araujo-story.jpeg",
+    "caixa": [
+      395,
+      245,
+      667,
+      585
+    ],
+    "tamanho": [
+      272,
+      340
+    ],
+    "uso": "apresentação privada; substituir por foto original autorizada"
+  },
+  "equipe-ana-ruth.webp": {
+    "tipo": "recorte de captura fornecida (referência privada)",
+    "fonte": "ana-ruth-referencia.jpeg",
+    "caixa": [
+      108,
+      405,
+      340,
+      695
+    ],
+    "tamanho": [
+      232,
+      290
+    ],
+    "uso": "apresentação privada; substituir por foto original autorizada"
+  },
+  "logo-uniclin.webp/png": {
+    "tipo": "recorte provisório fornecido, sem alteração",
+    "fonte": "logo-recorte-provisorio.png",
+    "uso": "substituir pelo vetor oficial"
+  },
+  "hero-*.avif/webp": {
+    "tipo": "render 3D próprio (Three.js, tools/render/scenes.js)",
+    "licenca": "criado para este protótipo",
+    "rotulo": "arte autoral inspirada nas curvas da marca",
+    "tamanho_original": [
+      1600,
+      1800
+    ]
+  },
+  "recepcao-*.avif/webp": {
+    "tipo": "render 3D próprio (Three.js, tools/render/scenes.js)",
+    "licenca": "criado para este protótipo",
+    "rotulo": "Imagem ilustrativa — conceito para demonstração",
+    "tamanho_original": [
+      2000,
+      1400
+    ]
+  },
+  "odontologia-*.avif/webp": {
+    "tipo": "render 3D próprio (Three.js, tools/render/scenes.js)",
+    "licenca": "criado para este protótipo",
+    "rotulo": "Imagem ilustrativa — conceito para demonstração",
+    "tamanho_original": [
+      2000,
+      1400
+    ]
+  },
+  "medico-*.avif/webp": {
+    "tipo": "render 3D próprio (Three.js, tools/render/scenes.js)",
+    "licenca": "criado para este protótipo",
+    "rotulo": "Imagem ilustrativa — conceito para demonstração",
+    "tamanho_original": [
+      2000,
+      1400
+    ]
+  },
+  "estetica-*.avif/webp": {
+    "tipo": "render 3D próprio (Three.js, tools/render/scenes.js)",
+    "licenca": "criado para este protótipo",
+    "rotulo": "Imagem ilustrativa — conceito para demonstração",
+    "tamanho_original": [
+      2000,
+      1400
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>render</title>
+  <style>html,body{margin:0;background:#f2ede2}canvas{display:block}</style>
+  <script type="importmap">
+    { "imports": {
+      "three": "/node_modules/three/build/three.module.js",
+      "three/addons/": "/node_modules/three/examples/jsm/"
+    } }
+  </script>
+</head>
+<body>
+<script type="module">
+  import { SCENES } from './scenes.js';
+  const q = new URLSearchParams(location.search);
+  const w = +q.get('w'), h = +q.get('h');
+  try { SCENES[q.get('scene')](w, h); window.__done = 'ok'; }
+  catch (e) { window.__done = 'erro: ' + e.message; console.error(e); }
+</script>
+</body>
+</html>
